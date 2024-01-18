@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Sid-3904.github.io",
   "dependencies": {
+    "@codaworks/react-glow": "^1.0.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -44,6 +45,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
   }
 }
