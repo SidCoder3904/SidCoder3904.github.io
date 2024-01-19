@@ -1,7 +1,13 @@
+import Info from "./components/Info";
+import Intro from "./components/Intro";
+
 const App = () => {
   return (
-    <div className=" bg-slate-500 text-6xl">Siddharth Verma</div>
-  )
-}
+    <div className="flex-wrap h-full w-full absolute bg-palette4 overflow-auto">
+      <Intro />
+      <Info />
+    </div>
+  );
+};
 
-export default App
+export default App;
