@@ -1,49 +1,70 @@
 import { Glow, GlowCapture } from "@codaworks/react-glow";
 import Data from "./Data";
+import Project from "./Project";
 
 const Info = () => {
   return (
     <div className="h-full lg:overflow-auto scroll-smooth">
+      <span id="about" />
       <GlowCapture>
         <Glow color="palette1">
-          <Data link="about" title="Education">
-            Degree Institute/Board CGPA/Percentage Year Bachelor of Technology
-            Indian Institute of Technology, Ropar 9.42 (Till 3th Sem) 2022-2026
-            Senior Secondary Central Board of Secondary Education 98% 2022
-            Secondary Central Board of Secondary Education 97% 2020
-          </Data>
-          <Data link="" title="Experience">
-            no exp
+          <Data link="" title="About Me">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga
+            aspernatur tempora distinctio facere. Ut beatae, blanditiis minus
+            fugiat, soluta consequatur ipsum sequi sed cupiditate fugit
+            molestiae! Explicabo, nihil possimus!
           </Data>
           <Data link="" title="Technical Skills">
-            Programming Languages: C, C++, Python, HTML, CSS, JavaScript,
-            Solidity • Machine Learning: Scikit-Learn, Tensorflow, Numpy, Pandas
-            • Computer Vision:OpenCV, MediaPipe • Block Chain Development:
-            Soliditty, Truffle, Ganache • Web Development:HTML, CSS, JavaScript
-            • Proficient in using : Jupyter, Git, Github, VS Code,
-            Linux(Ubuntu), OpenCV
+            <div className="text-palette2 text-xl">Programming Languages:</div>
+            <ul className="list-disc list-inside">
+              <li>C/C++</li>
+              <li>Python</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Solidity</li>
+            </ul>
+            <div className="text-palette2 text-xl">Machine Learning:</div>
+            Scikit-Learn, Numpy, Pandas, Tensorflow
+            <div className="text-palette2 text-xl">Computer Vision:</div>
+            OpenCV, MediaPipe
+            <div className="text-palette2 text-xl">Web Development:</div>
+            HTML, CSS, JavaScript, TypeScript
+            <div className="text-palette2 text-xl">
+              Block Chain Development:
+            </div>
+            Soliditty, Truffle, Ganache
           </Data>
           <Data link="projects" title="Projects">
-            IMA-Encrypt Academic Management System Target-AutoLocking Turret
-            C.A.S.P.E.R. (AI Assistant) SpellChecking & AutoCorrection in C
-            Visual Mouse
+            <Project title="IMA-Encrypt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              assumenda enim quia sapiente repudiandae similique possimus
+            </Project>
+            <Project title="Academic Management System">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              assumenda enim quia sapiente repudiandae similique possimus
+            </Project>
+            <Project title="Target-AutoLocking Turret">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              assumenda enim quia sapiente repudiandae similique possimus
+            </Project>
+            <Project title="C.A.S.P.E.R.">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              assumenda enim quia sapiente repudiandae similique possimus
+            </Project>
+            <Project title="Visual Mouse">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              assumenda enim quia sapiente repudiandae similique possimus
+            </Project>
+            <Project title="SpellChecking & AutoCorrection in C">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              assumenda enim quia sapiente repudiandae similique possimus
+            </Project>
           </Data>
-          <Data link="" title="Positions of Responsibility">
-            Representative,Zenith (Physics and Astronomy Club), IIT Ropar Apr.
-            2023 - Present • Co-Head (Sponsorship Team),Advitiya, IIT Ropar Dec.
-            2023 - Present • Event Manager,(Google Developer Students Club)
-            GDSC, IIT Ropar Apr. 2023 - Present • Core Team Member,Corporate
-            Relations, E-Cell, IIT Ropar Nov. 2022 - Aug. 2023
-          </Data>
-          <Data link="contact" title="Achievements">
-            Merit Certificate,Secured a position amongst Top 7% of all the
-            students in 1st and 2nd semester 2022-2023 • JEE Mains,99.66
-            percentile 2022 • JEE Advanced,All India Rank 1806 and among top 1%
-            students 2022 • Scratcher(Position),at Scratch, Making games since
-            2020 as hobby, Scratch-ID 2021 • Republic Day Camp,Part of the
-            prestigious RD Camp, Delhi held by NCC 2019 • AISSME,Part of All
-            India Sainik School Mountaineering Expedition(Ladakhi Peak,
-            5342mtrs) 2018
+
+          <Data link="contact" title="Contact Me">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            deleniti architecto iste impedit minima quia, aliquam perspiciatis
+            placeat qui molestiae laudantium veniam error esse autem,
+            consectetur nulla suscipit pariatur dolor!
           </Data>
         </Glow>
       </GlowCapture>
