@@ -9,7 +9,8 @@ module.exports = {
       palette3: "#178582",    // turquoise
       palette2: "#bfa181",    // gold
       palette1: "#ffffff",    // white
-      // palette5: "#000028",   
+      white: "#ffffff",    // white
+      black: "#000000",   
     },
     extend: {
       fontFamily: {

@@ -1,13 +1,19 @@
 import { ReactNode } from "react";
 
 type Props = {
+  title: string;
   children: ReactNode;
+  link: string;
 };
 
-const Data = ({ children }: Props) => {
+const Data = ({ link, title, children }: Props) => {
   return (
-    <div className="container rounded-lg font-Raleway font-normal bg-palette1 w-3/4 m-20 p-5 bg-opacity-5">
-      <div className="text-2xl text-palette2">{children}</div>
+    <div
+      id={link}
+      className="container rounded-lg bg-palette1 w-3/4 m-20 p-5 bg-opacity-5 shadow-md"
+    >
+      <div className="text-2xl text-palette2">{title}</div>
+      <div className="text-palette3">{children}</div>
     </div>
   );
 };
