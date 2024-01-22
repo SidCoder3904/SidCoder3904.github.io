@@ -4,7 +4,7 @@ import Project from "./Project";
 
 const Info = () => {
   return (
-    <div className="h-full overflow-auto scroll-smooth">
+    <div className="h-full overflow-auto scroll-smooth no-scrollbar">
       <span id="about" />
       <GlowCapture>
         <Glow color="palette1">
@@ -39,7 +39,7 @@ const Info = () => {
             <div className="text-palette2 text-xl">Computer Vision:</div>
             OpenCV, MediaPipe
             <div className="text-palette2 text-xl">Web Development:</div>
-            HTML, CSS, JavaScript, TypeScript
+            HTML, CSS, JavaScript, TypeScript, React
             <div className="text-palette2 text-xl">
               Block Chain Development:
             </div>
