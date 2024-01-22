@@ -6,11 +6,12 @@ module.exports = {
   theme: {
     colors: {
       palette4: "#0a1828",    // Dark classic blue
-      palette3: "#178582",    // turquoise
+      palette3: "#21b4b0",    // turquoise
       palette2: "#bfa181",    // gold
-      palette1: "#ffffff",    // white
+      palette1: "#d8d7ff",    // white
       white: "#ffffff",    // white
-      black: "#000000",   
+      black: "#000000",
+      transparent: "transparent",
     },
     extend: {
       fontFamily: {

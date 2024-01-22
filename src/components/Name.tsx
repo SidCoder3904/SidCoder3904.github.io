@@ -1,7 +1,10 @@
 const Name = () => {
   return (
-    <div className="container rounded-lg font-sans font-bold bg-palette1 w-3/4 m-20 p-10 bg-opacity-5 border-2 border-palette4 glow:border-palette2 shadow-2xl">
-      <div className="text-8xl text-palette2 font-light">Siddharth Verma</div>
+    <div className="container rounded-lg font-sans font-bold bg-palette1 w-3/4 mx-20 my-40 p-10 bg-opacity-5 border-2 border-palette4 glow:border-palette2 shadow-2xl">
+      <div className="text-6xl text-palette2 font-light">
+        <span className="text-8xl">S</span>IDDHARTH{" "}
+        <span className="text-8xl">V</span>ERMA
+      </div>
       <div className=" text-palette3 py-2 font-Raleway font-normal">
         Bachelor Of Technology in
         <br />

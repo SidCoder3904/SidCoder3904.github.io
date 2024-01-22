@@ -4,19 +4,31 @@ import Project from "./Project";
 
 const Info = () => {
   return (
-    <div className="h-full lg:overflow-auto scroll-smooth">
+    <div className="h-full overflow-auto scroll-smooth">
       <span id="about" />
       <GlowCapture>
         <Glow color="palette1">
-          <Data link="" title="About Me">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga
-            aspernatur tempora distinctio facere. Ut beatae, blanditiis minus
-            fugiat, soluta consequatur ipsum sequi sed cupiditate fugit
-            molestiae! Explicabo, nihil possimus!
+          <Data title="About Me">
+            I am <span className="font-semibold">Siddharth Verma</span>, a
+            second-year{" "}
+            <span className="font-semibold">
+              Computer Science and Engineering student at IIT Ropar
+            </span>
+            . With consistent academic excellence, I possess a diverse skill set
+            spanning computer science disciplines. My coursework and hands-on
+            projects extend beyond conventional boundaries, including aspects of{" "}
+            <span className="font-semibold">
+              artificial intelligence, machine learning, computer vision, and
+              blockchain
+            </span>
+            . Recognized for a dedicated work ethic and a commitment to
+            continuous learning, I am well-prepared to contribute effectively to
+            software engineering roles, leveraging my passion for technology and
+            a solid foundation in computer science principles.
           </Data>
-          <Data link="" title="Technical Skills">
+          <Data title="Technical Skills">
             <div className="text-palette2 text-xl">Programming Languages:</div>
-            <ul className="list-disc list-inside">
+            <ul className="list-none list-inside">
               <li>C/C++</li>
               <li>Python</li>
               <li>HTML, CSS, JavaScript</li>
@@ -33,7 +45,8 @@ const Info = () => {
             </div>
             Soliditty, Truffle, Ganache
           </Data>
-          <Data link="projects" title="Projects">
+          <span id="projects" />
+          <Data title="Projects">
             <Project title="IMA-Encrypt">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
               assumenda enim quia sapiente repudiandae similique possimus
@@ -60,7 +73,8 @@ const Info = () => {
             </Project>
           </Data>
 
-          <Data link="contact" title="Contact Me">
+          <span id="contact" />
+          <Data title="Contact Me">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             deleniti architecto iste impedit minima quia, aliquam perspiciatis
             placeat qui molestiae laudantium veniam error esse autem,
