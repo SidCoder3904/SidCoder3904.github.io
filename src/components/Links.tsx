@@ -2,21 +2,23 @@ import { ReactNode } from "react";
 
 interface Props {
   link: string;
-  src: string;
+  icon: string;
   children: ReactNode;
 }
 
-const Links = ({ link, src, children }: Props) => {
+const Links = ({ link, icon, children }: Props) => {
   return (
     <div className="">
       <center>
         <a href={link} target="_blank" rel="noreferrer">
-          <img
-            src={src}
-            alt={children?.toString()}
-            className="h-8 fill-palette2 transform transition hover:scale-125 shadow-palette4 shadow-2xl"
+          <i
+            className={icon + " transform transition hover:scale-125"}
+            style={{
+              fontSize: "25px",
+              color: "#bfa181",
+            }}
           />
-          <div className="text-sm text-palette2 my-2 mb-0">{children}</div>
+          <div className="text-xs text-palette2 my-1 mb-0">{children}</div>
         </a>
       </center>
     </div>

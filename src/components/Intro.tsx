@@ -24,21 +24,21 @@ const Intro = () => {
           <Name />
         </Glow>
       </GlowCapture>
-      <div className="flex flex-row grow w-full float-left justify-evenly py-6 items-center">
-        <Links src="assets/github.svg" link="https://github.com/Sid-3904">
+      <div className="flex flex-row w-full justify-evenly py-6 items-center">
+        <Links icon="fa-brands fa-github" link="https://github.com/Sid-3904">
           GitHub
         </Links>
-        <Links src="assets/mail.svg" link="mailto:siddharthverma3904@gamil.com">
-          E-Mail
+        <Links
+          icon="fa-brands fa-linkedin"
+          link="https://www.linkedin.com/in/siddharth-verma-186396259"
+        >
+          LinkedIn
         </Links>
         <Links
-          src="assets/resume.svg"
-          link="https://drive.google.com/file/d/1r7e1Uf3pKBNgyMbAz2-KeiOjvUrMu8D-/view?usp=drive_link"
+          icon="fa-brands fa-instagram"
+          link="https://instagram.com/siddharth_verma_3904?igshid=MzNlNGNkZWQ4Mg"
         >
-          Resume
-        </Links>
-        <Links src="assets/call.svg" link="+91 7780 973584">
-          Contact
+          Insta
         </Links>
       </div>
     </div>

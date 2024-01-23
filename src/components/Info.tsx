@@ -1,6 +1,7 @@
 import { Glow, GlowCapture } from "@codaworks/react-glow";
 import Data from "./Data";
 import Project from "./Project";
+import Contact from "./Contact";
 
 const Info = () => {
   return (
@@ -35,15 +36,32 @@ const Info = () => {
               <li>Solidity</li>
             </ul>
             <div className="text-palette2 text-xl">Machine Learning:</div>
-            Scikit-Learn, Numpy, Pandas, Tensorflow
+            <ul className="list-none list-inside">
+              <li>Scikit-Learn</li>
+              <li>Numpy</li>
+              <li>Pandas</li>
+              <li>Tensorflow</li>
+            </ul>
             <div className="text-palette2 text-xl">Computer Vision:</div>
-            OpenCV, MediaPipe
+            <ul className="list-none list-inside">
+              <li>OpenCV</li>
+              <li>MediaPipe</li>
+            </ul>
             <div className="text-palette2 text-xl">Web Development:</div>
-            HTML, CSS, JavaScript, TypeScript, React
+            <ul className="list-none list-inside">
+              <li>HTML, CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+            </ul>
             <div className="text-palette2 text-xl">
               Block Chain Development:
             </div>
-            Soliditty, Truffle, Ganache
+            <ul className="list-none list-inside">
+              <li>Solidity</li>
+              <li>Truffle</li>
+              <li>Ganache</li>
+            </ul>
           </Data>
           <span id="projects" />
           <Data title="Projects">
@@ -75,10 +93,23 @@ const Info = () => {
 
           <span id="contact" />
           <Data title="Contact Me">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            deleniti architecto iste impedit minima quia, aliquam perspiciatis
-            placeat qui molestiae laudantium veniam error esse autem,
-            consectetur nulla suscipit pariatur dolor!
+            <div className="grid grid-flow-col-dense grid-cols-3 grid-rows-2 gap-5 pt-5">
+              <Contact
+                icon="fa-envelope fa-solid"
+                link="mailto:siddharthverma3904@gmail.com"
+              >
+                Mail ID
+              </Contact>
+              <Contact icon="fa-phone fa-solid" link="+91 7780 973584">
+                Contact
+              </Contact>
+              <Contact
+                icon="fa-file fa-solid"
+                link="https://drive.google.com/file/d/1r7e1Uf3pKBNgyMbAz2-KeiOjvUrMu8D-/view?usp=drive_link"
+              >
+                Resume/CV
+              </Contact>
+            </div>
           </Data>
         </Glow>
       </GlowCapture>
