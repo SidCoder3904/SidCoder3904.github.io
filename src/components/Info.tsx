@@ -65,29 +65,65 @@ const Info = () => {
           </Data>
           <span id="projects" />
           <Data title="Projects">
-            <Project title="IMA-Encrypt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              assumenda enim quia sapiente repudiandae similique possimus
+            <Project
+              title="BlockSchool"
+              link="https://github.com/Sid-3904/Acad_Management_System"
+            >
+              An Ethereum blockchain-powered decentralized academic management
+              system for online schooling, eliminating central authority.
+              Utilizing smart contracts, it securely manages student records,
+              courses, and certifications. This innovative system will ensure
+              autonomy, data integrity, and accessibility.
             </Project>
-            <Project title="Academic Management System">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              assumenda enim quia sapiente repudiandae similique possimus
+            <Project
+              title="C.A.S.P.E.R."
+              link="https://github.com/Sid-3904/C.A.S.P.E.R-AI_Assistant"
+            >
+              An offline Personal AI Assistant performs routine computer tasks
+              without internet dependency. It assists with basic queries. It
+              adapts to user preferences, aids in task automation, and offers
+              personalized support for seamless daily computer operations,
+              enhancing productivity.
             </Project>
-            <Project title="Target-AutoLocking Turret">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              assumenda enim quia sapiente repudiandae similique possimus
+            <Project
+              title="Ima-Encrypt"
+              link="https://github.com/Sid-3904/Ima-Encrypt"
+            >
+              Cryptography using Diffie Hellman Key Exchange Algorithm. Focused
+              on comprehending the mathematics and algorithm of the
+              Diffie-Hellman Key Exchange. Delved into the principles of using
+              public and private keys for message encryption and decryption.
+              Explored the application of one way functions, discrete logarithms
+              and modular arithmetic.
             </Project>
-            <Project title="C.A.S.P.E.R.">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              assumenda enim quia sapiente repudiandae similique possimus
+            <Project
+              title="Foca-Bot"
+              link="https://github.com/Sid-3904/target_locking_turret"
+            >
+              An Arduino-driven robot equipped with computer vision locks onto
+              and autonomously tracks a designated target's movement path.
+              Utilizing image processing, it identifies the target, calculates
+              its motion, and adjusts its own trajectory to continuously pursue
+              and stay aligned with the moving object, ensuring dynamic and
+              accurate tracking.
             </Project>
-            <Project title="Visual Mouse">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              assumenda enim quia sapiente repudiandae similique possimus
+            <Project
+              title="Spellerium"
+              link="https://github.com/Sid-3904/SpellCheckerAndAutoCorrection"
+            >
+              A spell checker and suggestion program leveraging tries for
+              efficient word lookup, a Bloom filter for quick word existence
+              checks. This project incorporates comprehensive analysis, offering
+              accurate spell checking, word suggestions, and optimized
+              performance through parallel processing, enhancing speed and
+              accuracy in language processing tasks.
             </Project>
-            <Project title="SpellChecking & AutoCorrection in C">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              assumenda enim quia sapiente repudiandae similique possimus
+            <Project
+              title="Eye-Mouse"
+              link="https://github.com/Sid-3904/VisualMouse"
+            >
+              Tracks eye movements for mouse control and detects blinks as mouse
+              clicks, enabling hands-free navigation and interaction.
             </Project>
           </Data>
 
