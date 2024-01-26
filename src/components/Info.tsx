@@ -119,7 +119,7 @@ const Info = () => {
               accuracy in language processing tasks.
             </Project>
             <Project
-              title="Eye-Mouse"
+              title="OptiMouse"
               link="https://github.com/Sid-3904/VisualMouse"
             >
               Tracks eye movements for mouse control and detects blinks as mouse
@@ -136,7 +136,7 @@ const Info = () => {
               >
                 Mail ID
               </Contact>
-              <Contact icon="fa-phone fa-solid" link="+91 7780 973584">
+              <Contact icon="fa-phone fa-solid" link="tel:+917780973584">
                 Contact
               </Contact>
               <Contact
@@ -147,6 +147,9 @@ const Info = () => {
               </Contact>
             </div>
           </Data>
+          <div className="text-center font-Raleway font-extralight text-sm text-palette2 p-5 -mt-16">
+            This page was last updated on 27-01-2024
+          </div>
         </Glow>
       </GlowCapture>
     </div>
