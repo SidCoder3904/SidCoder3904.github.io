@@ -7,8 +7,8 @@ const Info = () => {
   return (
     <div className="h-full overflow-auto scroll-smooth no-scrollbar">
       <span id="about" />
-      <GlowCapture>
-        <Glow color="palette1">
+      {/* <GlowCapture> */}
+        {/* <Glow color="palette1"> */}
           <Data title="About Me">
             I am <span className="font-semibold">Siddharth Verma</span>, a
             second-year{" "}
@@ -148,10 +148,10 @@ const Info = () => {
             </div>
           </Data>
           <div className="text-center font-Raleway font-extralight text-sm text-palette2 p-5 -mt-16">
-            This page was last updated on 27-01-2024
+            This page was last updated on 21-06-2024
           </div>
-        </Glow>
-      </GlowCapture>
+        {/* </Glow> */}
+      {/* </GlowCapture> */}
     </div>
   );
 };
