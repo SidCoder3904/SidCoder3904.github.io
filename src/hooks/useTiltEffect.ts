@@ -9,7 +9,7 @@ const useTiltEffect = (cardRef: React.RefObject<HTMLDivElement>) => {
       max: 10,
       perspective: 1000,
       scale: 1.01,
-      speed: 500,
+      speed: 300,
       easing: "cubic-bezier(.03,.98,.52,.99)"
     };
 

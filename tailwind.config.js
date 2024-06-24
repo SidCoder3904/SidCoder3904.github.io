@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens : {
+      'md': '1000px',
+    },
     colors: {
       palette4: "#0a1828",    // Dark classic blue
       palette3: "#21b4b0",    // turquoise
@@ -17,6 +20,7 @@ module.exports = {
       fontFamily: {
         'Raleway': ['"Raleway"', "sans-serif"],
       },
+      scrollBehavior: ['smooth'],
     },
   },
   plugins: [

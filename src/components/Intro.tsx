@@ -5,21 +5,21 @@ import Links from "./Links";
 
 const Intro = () => {
   return (
-    <div className="lg:float-left h-full lg:w-1/2 w-full lg:overflow-hidden">
-      <nav className="flex flex-row lg:w-1/2 w-full float-left justify-evenly py-6 items-center fixed inset-x-0 z-50 bg-gradient-to-b from-palette4 from-25% to-transparent">
-        <a href="#name">
-          <img
-            src="assets/mylogo.svg"
-            alt="logo"
-            className="w-10 transform transition duration-200 hover:scale-125"
-          />
-        </a>
+    <div className="h-full w-full md:w-1/2 md:float-left">
+      <nav className="flex flex-row w-screen float-left md:px-20 justify-evenly md:justify-start py-6 items-center fixed inset-x-0 z-50 bg-gradient-to-b from-palette4 from-25% to-transparent">
+          <a href="#name">
+            <img
+              src="assets/mylogo.svg"
+              alt="logo"
+              className="w-10 hover:scale-125 transition-all duration-300"
+            />
+          </a>
         <ScrollLink link="about">About</ScrollLink>
         <ScrollLink link="projects">Projects</ScrollLink>
         <ScrollLink link="contact">Contact</ScrollLink>
       </nav>
       <GlowCapture>
-        <Glow color="palette1">
+        <Glow color="pallete1">
           <span id="name" />
           <Name />
         </Glow>
