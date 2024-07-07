@@ -25,7 +25,7 @@ const Intro = () => {
         </Glow>
       </GlowCapture>
       <div className="flex flex-row w-full justify-evenly py-6 items-center">
-        <Links icon="fa-brands fa-github" link="https://github.com/Sid-3904">
+        <Links icon="fa-brands fa-github" link="https://github.com/SidCoder3904">
           GitHub
         </Links>
         <Links

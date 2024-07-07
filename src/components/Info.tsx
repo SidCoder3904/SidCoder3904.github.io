@@ -68,21 +68,21 @@ const Info = () => {
           <Data title="Projects">
             <Project
               title="BlockAcademy"
-              link="https://github.com/Sid-3904/BlockAcademy"
+              link="https://github.com/SidCoder3904/BlockAcademy"
             >
               A decentralized LMS for online learning, built on Ethereum using Solidity and Ganache. Eliminates central authority,
               securely managing student records, courses, and certifications ensuring autonomy, data integrity, and accessibility.
             </Project>
             <Project
               title="VisualCrypt"
-              link="https://github.com/Sid-3904/VisualCrypt"
+              link="https://github.com/SidCoder3904/VisualCrypt"
             >
               Image cryptography using Diffie-Hellman Algorithm. Encrypted messages into stock images so only intended recipient could
               decode using password using public and private keys, one-way functions, modular arithmetic to ensure robust encryption.
             </Project>
             <Project
               title="Spellarium"
-              link="https://github.com/Sid-3904/Spellarium"
+              link="https://github.com/SidCoder3904/Spellarium"
             >
               A Spell checking and suggestion application leveraging tries for efficient word lookup, bloom filter for quick word existence
 checks. Incorporates comprehensive analysis, offering accurate spell checking, word suggestions, and optimized performance
@@ -90,14 +90,14 @@ through parallel processing, enhancing speed and accuracy in language processing
             </Project>
             <Project
               title="CASPER-AI"
-              link="https://github.com/Sid-3904/CASPER-AI"
+              link="https://github.com/SidCoder3904/CASPER-AI"
             >
               An offline Personal AI Assistant performing routine tasks without internet dependency. It assists with basic queries. It
               adapts to user preferences, aids in task automation, and offers personalized support for seamless operations and productivity.
             </Project>
             <Project
               title="TrackBot"
-              link="https://github.com/Sid-3904/TrackBot"
+              link="https://github.com/SidCoder3904/TrackBot"
             >
               Utilizing OpenCV and MediaPipe integration, this project features a robot that locates, tracks, and follows a designated
 target while continuously measuring its depth using monocular depth perception. Leveraging multithreading for real-time,
@@ -105,7 +105,7 @@ lag-free performance, the system achieves dynamic tracking and computes a 3-D tr
             </Project>
             <Project
               title="iMouse"
-              link="https://github.com/Sid-3904/VisualMouse"
+              link="https://github.com/SidCoder3904/iMouse"
             >
               Tracks eye movements for mouse control and detects blinks as mouse
               clicks, enabling hands-free navigation and interaction.
