@@ -126,7 +126,7 @@ lag-free performance, the system achieves dynamic tracking and computes a 3-D tr
               </Contact>
               <Contact
                 icon="fa-file fa-solid"
-                link="https://drive.google.com/file/d/14TTz4ZsjJD8Eo6aPdRNp1xYAZdrAnBoa/view?usp=sharing"
+                link="https://drive.google.com/file/d/15MtOjqjJq14IOjddCK-UMmgigHMiZUuZ/view?usp=sharing"
               >
                 Resume/CV
               </Contact>
