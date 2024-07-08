@@ -10,6 +10,8 @@ const Name = () => {
         <br />
         Computer Science and Engineering
         <br />
+        (Conc. in Artificial intelligence)
+        <br />
         Indian Institute Of Technology, Ropar
       </div>
     </div>
