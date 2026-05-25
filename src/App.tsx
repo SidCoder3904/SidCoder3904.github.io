@@ -1,24 +1,31 @@
-import Info from "./components/Info";
-import Intro from "./components/Intro";
-import { useState, useEffect } from "react";
-import Loading from "./components/Loading";
+import Navbar from './components/layout/Navbar';
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import Experience from './components/sections/Experience';
+import Research from './components/sections/Research';
+import Projects from './components/sections/Projects';
+import Skills from './components/sections/Skills';
+import Achievements from './components/sections/Achievements';
+import Leadership from './components/sections/Leadership';
+import Contact from './components/sections/Contact';
+import Footer from './components/layout/Footer';
 
-const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-  }, []);
-  if (isLoading) {
-    return <Loading />;
-  }
+export default function App() {
   return (
-    <div className="flex-wrap h-full w-full absolute bg-palette4 bg-gradient-to-t from-palette4 via-transparent to-palette4 overflow-auto font-Raleway select-none scroll-smooth">
-      <Intro />
-      <Info />
+    <div className="relative noise-overlay">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Experience />
+        <Research />
+        <Projects />
+        <Skills />
+        <Achievements />
+        <Leadership />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
-};
-
-export default App;
+}
